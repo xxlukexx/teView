@@ -1,0 +1,7 @@
+function def = teDefineAOIs(img, def, startTime)
+
+    if ~exist('def', 'var'), def = []; end
+    if ~exist('startTime', 'var'), startTime = []; end
+    def = etDefineAOIS(img, def, startTime);
+    
+end
